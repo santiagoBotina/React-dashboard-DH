@@ -1,0 +1,59 @@
+.usersChart {
+  margin: 20px 40px 0;
+  -webkit-box-shadow: 0px 0px 5px -1px #000000;
+  box-shadow: 0px 0px 5px -1px #000000;
+  border-radius: 4px;
+  border: none;
+  padding: 20px;
+  width: 30%;
+}
+
+.userList {
+  list-style: none;
+  font-size: 1.1rem;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  background-color: rgb(247, 245, 245);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.listItem:hover {
+  -webkit-box-shadow: 0px 0px 5px -1px #000000;
+  box-shadow: 0px 0px 5px -1px #000000;
+}
+
+.buttons img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.itemList {
+  margin: 20px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.buttonDetail {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.iconButton {
+  font-size: 1.5rem;
+}
+
+.iconButton:hover {
+  color: rgb(117, 160, 218);
+}
