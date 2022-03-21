@@ -1,3 +1,8 @@
 .home {
   flex: 4;
 }
+
+.wrapper-widgets {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,23 @@
+.productChart {
+  margin: 20px 40px 0;
+  -webkit-box-shadow: 0px 0px 5px -1px #000000;
+  box-shadow: 0px 0px 5px -1px #000000;
+  border-radius: 4px;
+  border: none;
+  padding: 20px;
+  width: 45%;
+  height: 500px;
+}
+
+.item {
+  font-size: 1.2rem;
+}
+
+.verBoton {
+  background-color: rgb(117, 160, 218);
+  font-size: 1.1rem;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
