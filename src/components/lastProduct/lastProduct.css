@@ -1,11 +1,11 @@
 .productChart {
-  margin: 20px 0 30px 70px;
+  margin: 20px 0 30px;
   -webkit-box-shadow: 0px 0px 5px -1px #000000;
   box-shadow: 0px 0px 5px -1px #000000;
   border-radius: 4px;
   border: none;
   padding: 20px;
-  width: 100%;
+  width: 95%;
   height: 400px;
 }
 
@@ -20,4 +20,8 @@
   border: none;
   padding: 5px;
   cursor: pointer;
+}
+
+.tituloCategoria {
+  font-weight: bold;
 }

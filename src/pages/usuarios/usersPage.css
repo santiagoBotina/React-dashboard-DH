@@ -1,0 +1,12 @@
+.user-page-main {
+  flex: 4;
+  padding: 20px;
+}
+
+.cardContainer {
+  margin-left: 40px;
+}
+
+.userList {
+  width: 100%;
+}

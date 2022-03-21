@@ -29,6 +29,14 @@
   background-color: rgb(183, 166, 219);
 }
 
+.list-item a {
+  text-decoration: none;
+}
+
+.list-item a:visited {
+  color: black;
+}
+
 .icon {
   margin-right: 5px;
 }

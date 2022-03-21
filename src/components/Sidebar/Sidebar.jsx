@@ -2,6 +2,7 @@ import React from "react";
 import "./sidebar.css";
 import { FaHome, FaUser, FaShoppingBag } from "react-icons/fa";
 import { BiCategory } from "react-icons/bi";
+import { Link, Route } from "react-router-dom";
 
 export default function Sidebar() {
   return (
@@ -9,19 +10,19 @@ export default function Sidebar() {
       <div className="list">
         <li className="list-item">
           <FaHome className="icon" />
-          Home
+          <Link to="/">Home</Link>
         </li>
         <li className="list-item">
           <FaUser className="icon" />
-          Usuarios
+          <Link to="/usuarios">Usuarios</Link>
         </li>
         <li className="list-item">
           <FaShoppingBag className="icon" />
-          Productos
+          <Link to="/productos">Productos</Link>
         </li>
         <li className="list-item">
           <BiCategory className="icon" />
-          Categorias
+          <Link to="/categorias">Categorías</Link>
         </li>
       </div>
     </ul>

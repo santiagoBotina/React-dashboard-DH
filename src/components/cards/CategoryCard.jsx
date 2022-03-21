@@ -1,10 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./cards.css";
-import UsersCards from "./UsersCard";
-import ProductsCards from "./ProductsCard";
-import CategoryCards from "./CategoryCard";
 
-const Cards = () => {
+const CategoryCards = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -12,16 +9,15 @@ const Cards = () => {
       .then((response) => response.json())
       .then((data) => {
         // console.log(data);
-        setData(data);
+        setData(data.countByCategory);
       });
   }, []);
 
   return (
-    <div className="card-wrapper">
-      <UsersCards />
-      <ProductsCards />
-      <CategoryCards />
-    </div>
+    <article className="greenCard">
+      <h3>Categorías</h3>
+      <p>{data.totalCategories}</p>
+    </article>
   );
 };
-export default Cards;
+export default CategoryCards;

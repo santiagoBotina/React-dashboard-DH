@@ -1,10 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./cards.css";
-import UsersCards from "./UsersCard";
-import ProductsCards from "./ProductsCard";
-import CategoryCards from "./CategoryCard";
 
-const Cards = () => {
+const ProductsCards = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -17,11 +14,10 @@ const Cards = () => {
   }, []);
 
   return (
-    <div className="card-wrapper">
-      <UsersCards />
-      <ProductsCards />
-      <CategoryCards />
-    </div>
+    <article className="blueCard">
+      <h3>Productos</h3>
+      <p>{data.count}</p>
+    </article>
   );
 };
-export default Cards;
+export default ProductsCards;

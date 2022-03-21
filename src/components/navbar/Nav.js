@@ -6,7 +6,7 @@ function Nav() {
     <React.Fragment>
       <div className="nav">
         <div className="nav-right">SportWear</div>
-        <div className="nav-left">Mi usuario</div>
+        <div className="nav-left">Admin</div>
       </div>
     </React.Fragment>
   );
